@@ -361,7 +361,7 @@ export default function JobDetailPage() {
             </Card>
 
             {/* Enhanced Timeline Section */}
-            <Card className="glass-effect border-border/50">
+            {/* <Card className="glass-effect border-border/50">
               <CardHeader>
                 <CardTitle>Activity Timeline</CardTitle>
                 <CardDescription>Track all job-related activities and candidate progress</CardDescription>
@@ -376,7 +376,7 @@ export default function JobDetailPage() {
                   </div>
                 )}
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Job Description */}
             <Card className="glass-effect border-border/50">
