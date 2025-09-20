@@ -88,7 +88,7 @@ export function CandidateKanban({ candidates, jobs, onStageChange }: CandidateKa
 
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+      <div className="flex gap-4 overflow-x-auto px-3 scrollbar-hide">
         {stages.map((stage) => {
           const stageCandidates = candidatesByStage[stage.id] || []
 
