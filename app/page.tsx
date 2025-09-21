@@ -566,7 +566,7 @@ export default function Dashboard() {
 
             <Card 
               className="hover-lift glass-effect border-border/50 group overflow-hidden relative cursor-pointer transform transition-all duration-300 hover:scale-105"
-              onClick={() => window.location.href = '/analytics'}
+              onClick={() => window.location.href = '/'}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-chart-4/5 to-chart-4/0 opacity-0 group-hover:opacity-100 transition-all duration-500" />
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
